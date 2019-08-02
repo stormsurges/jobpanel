@@ -30,4 +30,6 @@ Laravel 队列管理
 
 ## Supervisor
 
-配置文件见开启 `inet_http_server = 127.0.0.1:9001`
+配置文件开启 `inet_http_server = 127.0.0.1:9001`
+
+使用 python3 对接 Supervisor 接口， 接口地址：http://www.supervisord.org/api.html
