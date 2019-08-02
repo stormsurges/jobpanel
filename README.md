@@ -1,10 +1,10 @@
 # jobpanel
 
+Laravel 队列管理
+
 ![队列](./assets/queue.png '队列')
 
 ![Supervisor](./assets/supervisor.png '进程')
-
-Laravel 队列管理
 
 # install
 
