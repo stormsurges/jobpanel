@@ -1,0 +1,12 @@
+{
+    "name": "surges/jobpanel",
+    "description": "Laravel queue manager",
+    "type": "library",
+    "authors": [
+        {
+            "name": "surges",
+            "email": "surges@aliyun.com"
+        }
+    ],
+    "require": {}
+}
