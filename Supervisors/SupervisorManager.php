@@ -1,6 +1,6 @@
 <?php
 
-namespace Jobpanel\Supervisors;
+namespace Surges\Jobpanel\Supervisors;
 
 use Symfony\Component\Process\Process;
 

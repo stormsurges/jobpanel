@@ -1,5 +1,5 @@
 <?php
-namespace Jobpanel;
+namespace Surges\Jobpanel;
 
 interface JobRepository
 {

@@ -1,8 +1,8 @@
 <?php
-namespace Jobpanel\Http\Controllers;
+namespace Surges\Jobpanel\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use Jobpanel\Http\Traits\SupervisorTrait;
+use Surges\Jobpanel\Http\Traits\SupervisorTrait;
 
 class SupervisorController extends Controller
 {

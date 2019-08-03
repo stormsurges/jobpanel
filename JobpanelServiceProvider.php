@@ -1,13 +1,13 @@
 <?php
 
-namespace Jobpanel;
+namespace Surges\Jobpanel;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Jobpanel\Repositories\DatabaseJobRepository;
-use Jobpanel\Repositories\FailedJobRepository;
-use Jobpanel\Repositories\RedisJobRepository;
-use Jobpanel\Supervisors\SupervisorManager;
+use Surges\Jobpanel\Repositories\DatabaseJobRepository;
+use Surges\Jobpanel\Repositories\FailedJobRepository;
+use Surges\Jobpanel\Repositories\RedisJobRepository;
+use Surges\Jobpanel\Supervisors\SupervisorManager;
 
 class JobpanelServiceProvider extends ServiceProvider
 {
@@ -77,7 +77,7 @@ class JobpanelServiceProvider extends ServiceProvider
     {
         $driver = $this->config['driver'] ?: 'database';
         switch ($driver) {
-            case 'value':
+            case 'redis':
                 return new RedisJobRepository($this->config);
                 break;
 
@@ -93,7 +93,7 @@ class JobpanelServiceProvider extends ServiceProvider
         Route::group([
             'domain' => $this->config['route']['domain'] ?: null,
             'prefix' => $this->config['route']['prefix'],
-            'namespace' => 'Jobpanel\Http\Controllers',
+            'namespace' => 'Surges\Jobpanel\Http\Controllers',
             'middleware' => $this->config['route']['middleware'] ?: 'web',
         ], function () {
             $this->loadRoutesFrom(__DIR__ . '/routes.php');

@@ -1,9 +1,9 @@
 <?php
-namespace Jobpanel\Http\Traits;
+namespace Surges\Jobpanel\Http\Traits;
 
 use Illuminate\Http\Request;
-use Jobpanel\Facades\Supervisor;
 use Response;
+use Surges\Jobpanel\Facades\Supervisor;
 
 trait SupervisorTrait
 {

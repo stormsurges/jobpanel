@@ -1,10 +1,10 @@
 <?php
-namespace Jobpanel\Repositories;
+namespace Surges\Jobpanel\Repositories;
 
 use DB;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Carbon;
-use Jobpanel\JobRepository;
+use Surges\Jobpanel\JobRepository;
 
 class FailedJobRepository implements JobRepository
 {

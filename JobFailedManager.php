@@ -1,6 +1,6 @@
 <?php
 
-namespace Jobpanel;
+namespace Surges\Jobpanel;
 
 class JobFailedManager
 {

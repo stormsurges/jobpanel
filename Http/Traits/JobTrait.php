@@ -1,11 +1,11 @@
 <?php
 
-namespace Jobpanel\Http\Traits;
+namespace Surges\Jobpanel\Http\Traits;
 
 use Illuminate\Http\Request;
-use Jobpanel\Facades\Jobpanel;
-use Jobpanel\Facades\JobpanelFailed;
 use Response;
+use Surges\Jobpanel\Facades\Jobpanel;
+use Surges\Jobpanel\Facades\JobpanelFailed;
 
 trait JobTrait
 {

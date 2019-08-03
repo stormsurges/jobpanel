@@ -1,6 +1,6 @@
 <?php
 
-namespace Jobpanel\Facades;
+namespace Surges\Jobpanel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

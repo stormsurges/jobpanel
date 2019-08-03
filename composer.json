@@ -1,12 +1,18 @@
 {
-    "name": "surges/jobpanel",
-    "description": "Laravel queue manager",
-    "type": "library",
-    "authors": [
-        {
-            "name": "surges",
-            "email": "surges@aliyun.com"
-        }
-    ],
-    "require": {}
+  "name": "surges/jobpanel",
+  "description": "Laravel queue manager",
+  "keywords": [
+    "jobpanel",
+    "laravel",
+    "queue"
+  ],
+  "license": "MIT",
+  "authors": [{
+    "name": "surges",
+    "email": "surges@aliyun.com"
+  }],
+  "require": {
+    "php": "^7.1.3",
+    "predis/predis": "^1.1"
+  }
 }

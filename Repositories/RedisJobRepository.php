@@ -1,9 +1,9 @@
 <?php
-namespace Jobpanel\Repositories;
+namespace Surges\Jobpanel\Repositories;
 
 use function Opis\Closure\unserialize;
 use Illuminate\Support\Facades\Redis;
-use Jobpanel\JobRepository;
+use Surges\Jobpanel\JobRepository;
 
 class RedisJobRepository implements JobRepository
 {
